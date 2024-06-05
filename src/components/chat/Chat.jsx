@@ -8,7 +8,7 @@ const Chat = () => {
     const [text, setText] = useState("");
 
     const handleEmoji = (e) =>{
-        setText((prev) => prev + e.emoji);
+        setText((prev) => prev + e.emoji) ;
         setOpen(false)
     };
 
@@ -29,7 +29,50 @@ const Chat = () => {
                 </div>
             </div>
             <div className="center">
-
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Id eveniet mollitia a, deserunt tenetur repellat placeat! Aspernatur eligendi recusandae eaque rerum minima qui animi? Quae amet sapiente veritatis ipsum doloremque.
+                        </p>
+                        <spam>1 min ago</spam>
+                    </div>
+                </div>
+                <div className="message own">
+                    <div className="texts">
+                        <img src="https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Id eveniet mollitia a, deserunt tenetur repellat placeat! Aspernatur eligendi recusandae eaque rerum minima qui animi? Quae amet sapiente veritatis ipsum doloremque.
+                        </p>
+                        <spam>1 min ago</spam>
+                    </div>
+                </div>
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Id eveniet mollitia a, deserunt tenetur repellat placeat! Aspernatur eligendi recusandae eaque rerum minima qui animi? Quae amet sapiente veritatis ipsum doloremque.
+                        </p>
+                        <spam>1 min ago</spam>
+                    </div>
+                </div>
+                <div className="message own">
+                    <div className="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Id eveniet mollitia a, deserunt tenetur repellat placeat! Aspernatur eligendi recusandae eaque rerum minima qui animi? Quae amet sapiente veritatis ipsum doloremque.
+                        </p>
+                        <spam>1 min ago</spam>
+                    </div>
+                </div>
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Id eveniet mollitia a, deserunt tenetur repellat placeat! Aspernatur eligendi recusandae eaque rerum minima qui animi? Quae amet sapiente veritatis ipsum doloremque.
+                        </p>
+                        <spam>1 min ago</spam>
+                    </div>
+                </div>
             </div>
             <div className="bottom">
                 <div className="icons">
