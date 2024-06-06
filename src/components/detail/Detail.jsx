@@ -63,7 +63,8 @@ const Detail = () => {
                         <span>Shared Files</span>
                         <img src="./arrowDown.png" alt="" />
                     </div>
-                    <button>Block User  </button>
+                    <button>Block User</button>
+                    <button className="logout">Log Out</button>
                 </div>
             </div>
         </div>

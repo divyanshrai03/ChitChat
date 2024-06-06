@@ -9,14 +9,14 @@
 body{
   background-image: url("/bg.jpg");
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-self: center;
   height: 100vh;
 }
 
 .container{
   width: 87vw;
-  height: 87vh;
+  height: 90vh;
   margin: 0 95px;
   background-color: rgba(17, 25, 40, 0.75);
   backdrop-filter: blur(19px) saturate(180%);
