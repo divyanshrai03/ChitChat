@@ -1,1 +1,1 @@
-## React Chat App build using firebase
+## React Chat App using firebase
