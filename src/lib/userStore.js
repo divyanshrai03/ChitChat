@@ -22,7 +22,7 @@ export const useUserStore = create((set) => ({
 
     }catch{
         console.log(err)
-        return set({currentUser: null, isLoading: false});
+        return set({currentUser: null, isLoading: false}); 
     }
   },
 }));
